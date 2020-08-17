@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="home.css" rel="stylesheet" type="text/css">
+        <title>
+            Bexco Exports- HOME
+        </title>
+        <p class="top">
+            The number of customers happppy so far:
+            <span id="number">0
+
+            </span> 
+        </p>
+
+<script type="text/javascript">
+var i = 0; // Value starts off at zero
+function increment() {
+i++;
+i<=1000; // Change to i += [yourvalue] for any increase other than 1
+document.getElementById('number').innerHTML = i;
+}
+setInterval('increment()', 200); // Increments every 2 seconds
+</script>
+    </head>
+    <body class="main">
+
+    </body>
+   </html>
